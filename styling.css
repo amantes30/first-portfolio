@@ -23,7 +23,7 @@
 .options {
     text-align: center;
     
-    height: 30px;
+    height: 5%;
     
     
 }
@@ -31,7 +31,7 @@
 .option {
     color: whitesmoke;
     text-decoration: none;
-    padding: 20px;
+    padding: 1%;
     text-transform: capitalize;
 }
 
@@ -63,39 +63,43 @@
     z-index: +1;
 }
 .left {
-    width: 250px;
+    width: 15%;
     color: white;
-    font-weight: bold;
-    border-width: 1px;
+    margin-top: -5%;
+    
     border-style:hidden;
     border-color: silver;
-    padding: 9px;
+    padding-bottom: 10%;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
 }
 
     .left p h4 {
         text-align: left;
     }
 .centr{
-    text-decoration: line-through;
+    align-items: center;
     position:relative;
-    width: 100%;
-    height: 100%;
-    padding-top: 15% ;
+    width: 75%;
+    height: 70%;
+    padding-bottom: 5%;
+   
+    margin-top: 30%;
 }
 .cntr {
+    align-items: center;
     text-align: center;
-    width: 50%;
-    text-align: justify;
+    
+    border-style:groove;
     border-color: silver;
-    margin: -500px 0px 0px 300px;
+    margin: -45% 0% 0% 15%;
     color: white;
     
     font-style:normal;
     font-weight:lighter;
-    font-size: 30px;
+    font-size: 120%;
     padding: 10%;
-    border-style:dotted;
+    
     font-style: oblique;
 }
 
