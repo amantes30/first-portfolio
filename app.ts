@@ -3,6 +3,7 @@
     private span: HTMLElement;
     private timerToken: number;
 
+
     constructor(element: HTMLElement) {
         this.element = element;
         this.element.innerHTML += "The time is: ";
@@ -13,6 +14,7 @@
 
     public start() {
         this.timerToken = setInterval(() => this.span.innerHTML = new Date().toUTCString(), 500);
+        
     }
 
     public stop() {

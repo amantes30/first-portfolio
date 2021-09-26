@@ -63,9 +63,9 @@
     z-index: +1;
 }
 .left {
-    width: 15%;
+    width: 100%;
     color: white;
-    margin-top: -5%;
+    margin-top: 20%;
     
     border-style:hidden;
     border-color: silver;
@@ -75,24 +75,26 @@
 }
 
     .left p h4 {
-        text-align: left;
+        text-align: center;
     }
 .centr{
     align-items: center;
     position:relative;
-    width: 75%;
+    width: 90%;
     height: 70%;
-    padding-bottom: 5%;
+    padding-bottom: 20%;
    
-    margin-top: 30%;
+    margin-top: 25%;
 }
 .cntr {
+    width: 60%;
     align-items: center;
     text-align: center;
     
-    border-style:groove;
-    border-color: silver;
-    margin: -45% 0% 0% 15%;
+    background-color:black;
+    opacity: 0.95;
+    
+    margin: -40% 0% 0% 25%;
     color: white;
     
     font-style:normal;
@@ -117,7 +119,7 @@
     
     height: 10%;
     margin: 90px 0px 0px 0px;
-    text-align: center;
+    
     
 }
 
